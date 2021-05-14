@@ -1,2 +1,5 @@
 # Introduction-to-Data-Analytics-for-Business
-Advanced Business Analytics Specialization offered by University of Colorado Boulder
+```
+*** Think BACKWARDS!!! => From what decision we want to make to the actual decision making process.
+
+```
