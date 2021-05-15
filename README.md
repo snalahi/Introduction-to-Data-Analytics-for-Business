@@ -41,10 +41,10 @@ numerical optimization techniques with business rules and even financial model.
 
 *** In reational database system, rows = records and columns = fields / attributes
 
-![ETL (Extract, Transform, Load)](https://user-images.githubusercontent.com/59950232/118376126-f5d5d000-b57a-11eb-8dea-fe14fadbb075.png)
-![Primary Key (Natural, Composite and Surrogate Key) and Foreign Key](https://user-images.githubusercontent.com/59950232/118376130-f8d0c080-b57a-11eb-8259-8cf58d07c868.png)
-
-
+*** Normalization - The notion of trying to break data into different ideas is called
+    normalization. It turns out that normalizing data eliminates redundancy by ensuring
+    that we store unique data only once versus multiple times.
+    
 
 
 ```
