@@ -45,6 +45,31 @@ numerical optimization techniques with business rules and even financial model.
     normalization. It turns out that normalizing data eliminates redundancy by ensuring
     that we store unique data only once versus multiple times.
     
+*** Natural Key - A natural key is a type of unique key in a database formed of attributes
+that exist and are used in the external world outside the database. In the relational model
+of data, a natural key is a candidate key and is therefore a functional determinant for all
+attributes in a relation.
+
+*** Surrogate Key - A key which doesn't have meaning outside the database - therefore it is
+a Surrogate key rather than a Natural key.
+
+*** Composite Key - In database design, a composite key is a candidate key that consists of
+two or more attributes that together uniquely identify an entity occurrence.
+
+*** Primary Key - A primary key is a minimal set of attributes (columns) in a table that
+uniquely identifies tuples (rows) in that table.
+
+*** Foreign Key - A foreign key is a set of attributes in a table that refers to the primary
+key of another table. The foreign key links these two tables.
+
+*** SQL - Used to extract data from relational database.
+
+*** Queries - Are pieces of code that retrieve data from database tables.
+
+*** Data Manipulation operations are used to create or alter the database itself.
+
+*** Select * => Return all columns of the table.
+
 
 
 ```
