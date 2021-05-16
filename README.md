@@ -97,5 +97,4 @@ in SQL
 3) JOIN ... ON, 4) WHERE, 5) GROUP BY, 6) HAVING, 7) ORDER BY, 8) UNION 
 
 
-
 ```
