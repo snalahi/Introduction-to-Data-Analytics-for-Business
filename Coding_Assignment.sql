@@ -73,3 +73,4 @@ WHERE PASSENGER_COUNT IN
 SELECT p.airline, c.distance, avg (c.distance) as AVG_DIS
 from planes p, city_pairs c
 where p.airline = 'SKY'
+
