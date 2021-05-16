@@ -70,6 +70,29 @@ key of another table. The foreign key links these two tables.
 
 *** Select * => Return all columns of the table.
 
+*** Count (Customers) => counts all the customers in the Customers column except NULL.
+*** Count (*) => counts all the customers in the Customers column including NULL.
+
+*** Group By Product => groups each element in the Product column and returns as a new
+Product column with some aggregate functions applied on each element.
+
+*** Where Clause => Used to apply conditions on the source table. Used just after the
+From clause.
+
+*** Having Clause => Used to apply conditions on the aggregated table done by Group By.
+Used after Group By.
+
+"<>" => is not equal in SQL
+
+*** Order By should be the last command in any SQL query.
+
+*** Joining is used to combine data from different tables.
+
+*** Prefer Left Join over Inner Join in data analytics.
+
+*** Full Outer Join is less commonly used in SQL. Whereas, Left Join is commonly used
+in SQL
+
 
 
 ```
