@@ -3,7 +3,7 @@
 SELECT COUNT(*)
 FROM PLANES
 
-2.*
+2.
 -- What is the TAIL_NUMBER of the plane with the second lowest number of seats in that list?
 SELECT TAIL_NUMBER, SEAT_COUNT
 From PLANES
@@ -33,12 +33,13 @@ from airports a
 left join flights f on f.departure_airport = a.airport
 where country = 'US'
 
-6.*
+6.
 -- Write a query that provides the total number of flights by regionality. Which regionality has the second
 -- highest number of flights?
-SELECT c.regionality, f.flight_id, count (f.flight_id) as F_CN
+SELECT c.regionality, f.tail_number, count (f.tail_number) as F_CN
 from flights f
-left join city_pairs c on c.departure_airport = f.departure_airport
+left join city_pairs c on c.arrival_airport = f.arrival_airport
+and c.departure_airport = f.departure_airport
 group by c.regionality
 order by F_CN desc
 
@@ -72,10 +73,3 @@ WHERE PASSENGER_COUNT IN
 SELECT p.airline, c.distance, avg (c.distance) as AVG_DIS
 from planes p, city_pairs c
 where p.airline = 'SKY'
-
-
-
-
-
-
-
