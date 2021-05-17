@@ -98,4 +98,14 @@ in SQL
 
 *** Sub-queries are used either inside WHERE command or JOIN command (LEFT JOIN for
 instance)
+
+*** Data Modeling is actually statistical modelling of data, such as different machine
+learning models, predictive and statistical analytics etc.
+
+
+
+
+
+
+
 ```
