@@ -113,8 +113,8 @@ state of their data domain.
 
 *** CFI => Consumer Financial Information
 
-*** CPNI => Customer Proprietory Network Information => Data collected only by telecommunication,
-through telephone calls.
+*** CPNI => Customer Proprietory Network Information => Data collected only by
+telecommunication, through telephone calls.
 
 *** PHI => Protected Health Information
 
