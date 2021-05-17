@@ -102,10 +102,21 @@ instance)
 *** Data Modeling is actually statistical modelling of data, such as different machine
 learning models, predictive and statistical analytics etc.
 
+*** MDM - Master Data Management => From where the data should come and where it should
+be stored.
 
+*** Steward => A person who governs some processes. Data stewards are generally accountable
+for ensuring that their area has the correct definitions and are responsible for the overall
+state of their data domain.
 
+*** PII => Personally Identifiable Information
 
+*** CFI => Consumer Financial Information
 
+*** CPNI => Customer Proprietory Network Information => Data collected only by telecommunication,
+through telephone calls.
 
+*** PHI => Protected Health Information
 
+*** Data Latency => Timeliness: is data available by the time it is needed?
 ```
